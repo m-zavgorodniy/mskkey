@@ -1,0 +1,6 @@
+admin/
+lib/
+lib_site/
+uploads/
+.htaccess
+*.php
