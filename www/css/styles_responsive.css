@@ -1,0 +1,10 @@
+@media (max-width: 986px) {
+  /* tablet */
+  /* 2 columns */
+  .g-container {width: 100%;}
+}
+
+@media (max-width: 568px) {
+  /* mobile */
+  /* 1 column */
+}
