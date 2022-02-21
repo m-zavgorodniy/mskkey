@@ -1,10 +1,25 @@
 @media (max-width: 986px) {
   /* tablet */
   /* 2 columns */
-  .g-container {width: 100%;}
+  .g-container {
+    width: 100%;
+  }
+  .header-contacts {
+    display: none;
+  }
+  .header-menu {
+    display: none;
+  }
+  .home-links {
+    display: none;
+  }
+  .properties-grid
+  .p-item {
+    width: 100%;
+  }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 600px) {
   /* mobile */
   /* 1 column */
 }
