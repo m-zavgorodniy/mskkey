@@ -1,10 +1,132 @@
+.footer-main
+.g-clearfix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-btl {
+  display: flex;
+  align-items: center;
+  padding: 0 37px 0 37px ;
+  height: auto;
+}
+.footer-btl
+.footer-col {
+  padding: 0;
+  flex: 33.3%;
+}
+.footer-btl
+.footer-col:first-child {
+  height: 100;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+.footer-btl
+.footer-col:nth-child(2) {
+  height: 100;
+  padding: 10px 0 10px 0;
+}
+.footer-btl
+.footer-col:last-child{
+  height: 100;
+  padding: 10px 0 10px 0;
+}
+.home-promo-media img {
+  width: 100%;
+  height: auto;
+}
+.home-promo-media {
+  width: 100%;
+}
+
 @media (max-width: 986px) {
   /* tablet */
   /* 2 columns */
-  .g-container {width: 100%;}
+  .g-container {
+    width: 100%;
+  }
+  .footer-main
+  .g-clearfix {
+    flex-direction: column;
+  }
+
+  .footer-main
+  .footer-col:first-child {
+    width: 100%;
+  }
+  .g-big{
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-main
+  .footer-company-text {
+    align-items: center;
+  }
+  .footer-company-text
+  .g-bold {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-main
+  .footer-col:nth-child(2) {
+    width: 100%;
+    flex: none;
+  }
+
+  .footer-main
+  .footer-col:last-child {
+    width: 100%;
+  }
+  .footer-main
+  .footer-menu ul {
+    display: flex;
+    text-align: left;
+    margin-bottom: 0px;
+    justify-content: space-between;
+ }
+ .footer-main
+ .footer-menu ul ul {
+   display: block;
+ }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 600px) {
   /* mobile */
   /* 1 column */
+  .footer-main
+  .footer-col
+  .footer-menu ul {
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer-main
+  .footer-col:nth-child(2) 
+  .footer-phone {
+    font-size: 24px;
+  }  
+
+ .footer-btl{
+    flex-direction: column;
+    justify-content: center;
+  }
+ .footer-btl
+ .footer-col {
+    justify-content: center;
+  }
+  .footer-btl
+  .footer-col:first-child {
+    text-align: center;
+  }
+ .footer-btl
+ .footer-col:last-child {
+    height: 100;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  .footer-btl
+  .footer-col:last-child a {
+   width: 100%;
+  }
 }
