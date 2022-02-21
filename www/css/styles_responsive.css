@@ -89,6 +89,19 @@
  .footer-menu ul ul {
    display: block;
  }
+  .header-contacts {
+    display: none;
+  }
+  .header-menu {
+    display: none;
+  }
+  .home-links {
+    display: none;
+  }
+  .properties-grid
+  .p-item {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
