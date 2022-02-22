@@ -2,5 +2,3 @@ admin/
 lib/
 uploads/
 .htaccess
-index.php
-thumb.php
