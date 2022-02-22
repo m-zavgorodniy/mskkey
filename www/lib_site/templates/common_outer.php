@@ -2,6 +2,7 @@
 <html class="no-js" lang="<?=$_SITE['html_lang']?>">
 <head>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <?	//  define SEO_ constants in inner template ?>
 	<title><?=$_SITE['seo_title']?$_SITE['seo_title']:(defined('SEO_PAGE_TITLE')?SEO_PAGE_TITLE . ' — ' . $_SITE['site_title']:$_SITE['page_title'])?></title>
 <?	if (defined('SEO_PAGE_NOINDEX')) { ?>
@@ -23,6 +24,7 @@
     <meta name="facebook-domain-verification" content="oay0t4fqenuf8hmjcgh5czr372tnwf">
 
 	<link href="/css/styles.css?r=6" rel="stylesheet">
+    <link href="/css/styles_responsive.css?r=6" rel="stylesheet">
 	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie.css" media="screen" /><![endif]-->
 	<link href="/css/content.css" rel="stylesheet">
 
