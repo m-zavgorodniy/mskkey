@@ -44,16 +44,8 @@
 <?  if ($_DATA['listing_main']) { ?>
     <div class="properties-grid g-clearfix">
         <h2><?=$_SITE['settings']['title_best_offers']?></h2>
-    <?  $i = 0;
-        foreach ($_DATA['listing_main']['items'] as &$listing) {
+    <?  foreach ($_DATA['listing_main']['items'] as &$listing) {
             out_listing($listing);
-            if (0 == (++$i % 3)) { ?>
-                </div>
-            <? /* ---- form!    <div class="g-title">Оставьте заявку</div>
-                <?  out_contact_form(); ?>
-                <br><br><br><br> */ ?>
-                <div class="properties-grid g-clearfix">
-        <?  }
         }
         unset($listing); ?>
     </div>
