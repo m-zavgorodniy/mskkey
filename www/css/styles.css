@@ -69,6 +69,7 @@ header {background: #fff;}
 .header-logo a {font-size: 36px; font-weight: 600; color: #108843; text-transform: uppercase;}
 .header-logo-text {display: block; margin: -20px 0 0 50px; font-size: 10px; color: #222; text-transform: uppercase;}
 .header-moomap {float: left; padding-top: 38px;}
+.header-hamburger {display: none;}
 
 .header-fixed .header-moomap,
 .header-fixed .header-contacts-request,

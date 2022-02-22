@@ -87,6 +87,9 @@
             <div class="g-container-box">
             	<div class="header">
                     <div class="header-top">
+                        <a href="#" class="header-hamburger" id="hamburger">
+                            <i class="fa fa-bars"></i>
+                        </a>
                         <a href="/" class="header-logo">
                             <img src="/images/moscow_key_logo.svg" alt="МСК Ключ">
                         </a>
