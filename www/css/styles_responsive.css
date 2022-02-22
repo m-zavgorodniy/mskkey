@@ -84,11 +84,12 @@
     text-align: left;
     margin-bottom: 0px;
     justify-content: space-between;
- }
+  }
  .footer-main
  .footer-menu ul ul {
    display: block;
- }
+  }
+
   .header-contacts {
     display: none;
   }
@@ -101,6 +102,26 @@
   .properties-grid
   .p-item {
     width: 100%;
+  }
+
+  .header-fixed header {
+    display: none;
+  }
+
+  .body-content-side {
+    display: none;
+  }
+  .body-content-main {
+    width: 100%;
+    padding: 0;
+  }
+  .p-item
+  .p-item-image img {
+    width: 100%;
+    
+  }
+  .properties-found {
+    display: flex;
   }
 }
 
@@ -141,5 +162,46 @@
   .footer-btl
   .footer-col:last-child a {
    width: 100%;
+  }
+
+  .properties-found {
+    flex-direction: column;
+  }
+  .properties-found
+  .properties-found-search {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .properties-list
+  .p-item {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .properties-list 
+  .p-item
+  .p-item-image {
+    width: 100%;
+  }
+  .properties-list 
+  .p-item
+  .p-item-image img {
+    width: 100%;
+    height: auto;
+  }
+  .properties-list
+  .p-item
+  .p-item-contents{
+    width: 100%;
+  }
+  .p-item-extra  {
+    display: flex;
+    flex-direction: column;
+  }
+  .properties-list 
+  .p-item-amenities {
+    width: 100%;
   }
 }
