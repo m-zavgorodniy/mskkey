@@ -304,5 +304,32 @@
   .p-item-amenities {
     width: 100%;
   }
+
+  .form-validate
+  .form-field-line {
+    flex-direction: column;
+  }
+  .form-validate
+  .form-field-line 
+  .form-field-short:first-child
+  .form-input-text {
+    margin: 0;
+  }
+  .form-validate
+  .form-field-line 
+  .form-field-short {
+    width: 100%;
+  }
+  .form-validate
+  .form-field-line 
+  .form-field-or {
+    width: 100%;
+  }
+  .form-validate
+  .form-input-submit {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 }
 
