@@ -24,9 +24,9 @@
     <meta name="facebook-domain-verification" content="oay0t4fqenuf8hmjcgh5czr372tnwf">
 
 	<link href="/css/styles.css?r=6" rel="stylesheet">
+    <link href="/css/content.css" rel="stylesheet">
     <link href="/css/styles_responsive.css?r=6" rel="stylesheet">
-	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie.css" media="screen" /><![endif]-->
-	<link href="/css/content.css" rel="stylesheet">
+    
 
 	<link rel="stylesheet" href="/fonts/font-awesome.min.css">
 	<script src="/js/modernizr.js"></script>

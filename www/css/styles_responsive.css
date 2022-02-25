@@ -159,6 +159,11 @@
   .properties-found {
     display: flex;
   }
+
+  
+  .text-content ul li {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -304,6 +309,7 @@
   .p-item-amenities {
     width: 100%;
   }
+
 
   .form-validate
   .form-field-line {
