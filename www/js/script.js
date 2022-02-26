@@ -22,6 +22,12 @@ $(function() {
 	}
 
 	/* menu */
+	$("#hamburger").click(function(event) {
+
+		// TODO! switch the main menu on and off!
+
+	});
+
 	$(".header-menu-item.w-submenu").children("a").click(function(event) {
 		var $menuitem = $(this).parent();
 		var $submenu =  $(this).next(".header-menu-submenu");

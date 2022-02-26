@@ -101,7 +101,7 @@
                             <div class="header-contacts-request"><a href="<?=$_SITE['section_paths']['contact']['path']?>" class="g-button">Оставьте заявку</a></div>
                         </div>
                     </div>
-                    <nav class="header-menu g-clearfix">
+                    <nav id="hamburger-menu" class="header-menu g-clearfix">
                         <ul>
                         <?	foreach ($_SITE['menu']['main'] as $id => &$menu_item) { ?>
                                 <li class="header-menu-item<?=$menu_item['submenu']?' w-submenu':''?><?='/property/' == $menu_item['url']?' header-menu-property':''?>">
