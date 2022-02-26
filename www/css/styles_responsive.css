@@ -39,6 +39,21 @@
   width: 100%;
 }
 
+.properties-grid {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .properties-grid
+  .p-item {
+  width: 33,33%;
+  }
+  .properties-grid h2 {
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  }
+
+
 @media (max-width: 986px) {
   /* tablet */
   /* 2 columns */
