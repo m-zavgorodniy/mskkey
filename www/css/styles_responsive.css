@@ -136,11 +136,19 @@
   .home-links {
     display: none;
   }
+  .properties-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .properties-grid
   .p-item {
-    width: 100%;
+    width: 50%;
   }
-
+  .properties-grid h2 {
+    width: 100%;
+    align-items: center;
+    padding: 0;
+  }
   .header-fixed header {
     display: none;
   }
@@ -152,16 +160,9 @@
     width: 100%;
     padding: 0;
   }
-  .p-item
-  .p-item-image img {
-    width: 100%;
-    
-  }
   .properties-found {
     display: flex;
   }
-
-  
   .text-content ul li {
     margin-left: 0;
   }
@@ -201,6 +202,10 @@
   }
   .home-promo {
     display: none;
+  }
+  .properties-grid
+  .p-item {
+    width: 100%;
   }
   .footer-main
   .footer-col
