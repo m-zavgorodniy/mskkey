@@ -23,11 +23,14 @@ $(function() {
 
 	/* menu */
 	$(".header-menu-item.w-submenu").children("a").click(function(event) {
-		var $submenu = $(this).next(".header-menu-submenu");
+		var $menuitem = $(this).parent();
+		var $submenu =  $(this).next(".header-menu-submenu");
 		if ($submenu.is(".active")) {
+			$menuitem.removeClass("header-menu-item--active");
 			$submenu.removeClass("active");
 		} else {
 			$(".header-menu-submenu").removeClass("active");
+			$menuitem.toggleClass("header-menu-item--active");
 			$submenu.toggleClass("active");
 		}
 		event.stopPropagation()
