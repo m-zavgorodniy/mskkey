@@ -106,7 +106,7 @@
 <?	} ?>
     
     <div class="home-partners">
-    	<h3>Наши партнеры</h3>
+    	<h2>Наши партнеры</h2>
     <?  foreach ($_DATA['client']['items'] as &$client) { ?>
             <img src="<?=$client['img_src']?>" alt="<?=$title = htmlspecialchars($client['title'])?>" title="<?=$title?>">
     <?  } ?>
