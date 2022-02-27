@@ -54,7 +54,7 @@ $(function() {
 		event.stopPropagation()
 	});
 	$(document).click(function() {
-		var isMobile = (document.getElementById("hamburger").style.display == "block");
+		var isMobile = $("#hamburger").is(":visible");
 		if (!isMobile) {
 			$(".header-menu-submenu").removeClass("active");
 		}	
