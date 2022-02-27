@@ -183,6 +183,14 @@
   }
 
 
+  .property-search-form-tabs{
+    display: flex;
+    width: 100%;
+  }
+  .property-search-form-section
+  .form-field-checkbox {
+    width: 100%;
+  }
   .property-search-form-pad 
   .property-search-markettype {
     position: static;
@@ -194,7 +202,6 @@
   .property-search-direction-item {
     margin-bottom: 14px;
   }
-  
 }
 
 @media (max-width: 600px) {
@@ -385,6 +392,10 @@
     border-top-right-radius: 0;
   }
   .property-search-form
+  .property-search-form-tabs {
+    display: block;
+  }
+  .property-search-form
   .property-search-form-tabs
   .property-search-form-tab {
     width: 100%;
@@ -421,17 +432,18 @@
   .form-field
   .form-field-range {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
   } 
   .property-search-form-section:nth-child(2) 
   .form-field
   .form-field-title {
     font-size: 16px;
+    margin: 0;
+    margin-bottom: 15px;
   } 
   .property-search-form-section:nth-child(2) 
   .form-field select {
     margin: 0;
+    max-width: 100px;
   }
   .property-search-form
   .property-search-form-submit
