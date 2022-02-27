@@ -24,11 +24,12 @@ $(function() {
 	/* menu */
 	$("#hamburger").click(function(event) {
 
+        var activeMobileMenuClass = "hamburger-menu--active";
 		var x = document.getElementById("hamburger-menu");
-		if (x.style.display === "block") {
-		  x.style.display = "none";
+		if (x.className.indexOf(activeMobileMenuClass) != -1) {
+		  x.className = x.className.split(activeMobileMenuClass)[0];
 		} else {
-		  x.style.display = "block";
+		  x.className += (" " + activeMobileMenuClass);
 		}
 
 	});

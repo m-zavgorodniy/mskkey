@@ -241,6 +241,9 @@
     font-size: 24px;
   }
   .header-menu {
+    display: none;
+  }
+  .hamburger-menu--active {
     display: block;
   }
   .header-menu-submenu {
