@@ -23,9 +23,10 @@
     <meta name="yandex-verification" content="ab33d391608ad078">
     <meta name="facebook-domain-verification" content="oay0t4fqenuf8hmjcgh5czr372tnwf">
 
-	<link href="/css/styles.css?r=6" rel="stylesheet">
+<?  $revision = 7; ?>
+	<link href="/css/styles.css?r=<?=$revision?>" rel="stylesheet">
     <link href="/css/content.css" rel="stylesheet">
-    <link href="/css/styles_responsive.css?r=6" rel="stylesheet">
+    <link href="/css/styles_responsive.css?r=<?=$revision?>" rel="stylesheet">
     
 
 	<link rel="stylesheet" href="/fonts/font-awesome.min.css">
@@ -44,7 +45,7 @@
 	<link rel="stylesheet" type="text/css" href="/paginator/paginator3000.css">
 	<script type="text/javascript" src="/paginator/paginator3000.js"></script>
 
-	<script src="/js/script.js?r=5"></script>
+	<script src="/js/script.js?r=<?=$revision?>"></script>
 
     <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-225111-4bUTF';</script>
     <!-- Facebook Pixel Code -->
