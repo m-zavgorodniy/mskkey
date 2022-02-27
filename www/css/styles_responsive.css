@@ -161,6 +161,9 @@
   .home-links {
     display: none;
   }
+  .home-links + .g-line {
+    visibility: hidden;
+  }
   .properties-grid {
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +288,15 @@
     display: flex;
     flex-direction: column;
   }
+
+  .header-line {
+    display: block;
+    margin-bottom: 0;
+  }
+  .hamburger-menu--active + .header-line {
+    display: none;
+  }
+
   .properties-grid
   .p-item {
     width: 100%;

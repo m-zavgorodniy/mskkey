@@ -101,6 +101,7 @@ header {background: #fff;}
 .header-fixed .header-menu-submenu.active {display: block;}
 
 .header-menu, .header-menu a {color: #fff;}
+.header-line {display: none;}
 .header-menu {font-size: 16px; background: #398a5c; /*linear-gradient(to bottom, #26ae60 0, #108944 100%);*/}
 .header-menu-item {float: left; height: 51px; overflow: hidden; border-right: 1px solid #3f9865 /*#2b9658*/;}
 .header-menu-item > a, .header-menu-right {display: block; padding: 0 30px; line-height: 51px;}

@@ -126,6 +126,7 @@
                         </ul>
                         <a href="<?=$_SITE['section_paths']['property']['path']?>" class="header-menu-right"><i class="fa fa-search"></i><span>Найти недвижимость</span></a>
                     </nav>
+                    <div class="header-line g-line"></div>
 	            </div>
             </div>
         </div>
