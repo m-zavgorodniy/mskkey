@@ -53,8 +53,8 @@ $(function() {
 		event.stopPropagation()
 	});
 	$(document).click(function() {
-        var x = document.getElementById("hamburger"); 
-		if (x.style.display == "none") {
+		var isMobile = (document.getElementById("hamburger").style.display == "block");
+		if (!isMobile) {
 			$(".header-menu-submenu").removeClass("active");
 		}	
 	});
