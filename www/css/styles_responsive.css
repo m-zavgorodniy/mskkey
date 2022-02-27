@@ -110,9 +110,8 @@
   }
   .header-logo {
     width: 23%;
-    position: absolute;
-    left: 33%;
-    padding-top: 0; 
+    padding-top: 0;
+    margin-right: 20px; 
   }
   .header-logo img {
     width: 100%;
@@ -120,8 +119,6 @@
   }
   .header-moomap {
     width: 5%;
-    position: absolute;
-    left: 62%;
     padding-top: 0;
   }
   .header-moomap img {
@@ -141,12 +138,22 @@
     height: 30px;
     line-height: 30px;
   }
-  .header-menu {
+  .header-hamburger {
     display: none;
   }
-  .header-hamburger {
+  .header-menu {
     display: block;
-    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .header-menu-right {
+    float: none;
+  }
+  .header-menu-item {
+    padding: 0;
+    border-right: 0px;
+  }
+  .home-promo {
+    display: none;
   }
   .home-links {
     display: none;
@@ -206,16 +213,20 @@
     height: 70px;
   }
   .header-logo {
-    width: 25%;
-    padding: 0;
+    width: 23%;
+    position: absolute;
+    left: 33%;
+    padding: 0; 
   }
   .header-logo img {
     width: 100%;
     height: auto;
   }
   .header-moomap {
-    width: 7%;
-    padding: 0;
+    width: 5%;
+    position: absolute;
+    left: 62%;
+    padding-top: 0;
   }
   .header-moomap img {
     width: 100%;
@@ -229,8 +240,27 @@
     display: block;
     font-size: 24px;
   }
-  .home-promo {
-    display: none;
+  .header-menu {
+    display: block;
+  }
+  .header-menu-submenu {
+    width: 100%;
+    margin-top: 0;
+  }
+  .header-menu-item {
+    height: auto;
+  }
+  .header-menu-item--active .header-menu-submenu {
+    position: static;
+    background-color: #3f9865;
+  }
+  .header-menu-right {
+    float: none;
+    padding-left: 30px;
+  }
+  .header-menu ul {
+    display: flex;
+    flex-direction: column;
   }
   .properties-grid
   .p-item {
