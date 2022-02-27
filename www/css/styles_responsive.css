@@ -253,13 +253,15 @@
     display: block;
     position: absolute;
     left: 93.5%;
-    color: #2b9865;
     font-size: 22px;
   }
   .header-hamburger {
     display: block;
     font-size: 24px;
-    color: #2b9865;
+  }
+  .header-search,
+  .header-hamburger {
+    color: #398a5c;
   }
   .header-menu {
     display: none;
