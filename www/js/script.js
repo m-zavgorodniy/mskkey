@@ -3,7 +3,8 @@ $(function() {
 	$(window).scroll(stick_header).resize(stick_header);
 	
 	function stick_header() {
-		if (document.body.scrollWidth > document.body.clientWidth) {
+		// @media (max-width: 986px) - tablet/mobile
+		if ($('body').width() <= 986) {
 			$('body').removeClass('header-fixed');
 			$('header').css("width", "auto");
 			return;
