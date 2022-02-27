@@ -53,6 +53,9 @@
   padding: 0;
 }
 
+.header-search {
+  display: none;
+}
 
 @media (max-width: 986px) {
   /* tablet */
@@ -243,6 +246,13 @@
   .header-contacts {
     display: none;
   }
+  .header-search {
+    display: block;
+    position: absolute;
+    left: 93.5%;
+    color: #2b9865;
+    font-size: 22px;
+  }
   .header-hamburger {
     display: block;
     font-size: 24px;
@@ -269,8 +279,7 @@
     background-color: #3f9865;
   }
   .header-menu-right {
-    float: none;
-    padding-left: 30px;
+    display: none;
   }
   .header-menu ul {
     display: flex;
