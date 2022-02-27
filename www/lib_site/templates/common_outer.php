@@ -100,6 +100,9 @@
                             <div class="header-contacts-phone"><a href="tel:<?=$_SITE['settings']['phone']?>"><?=$_SITE['settings']['phone']?></a></div>
                             <div class="header-contacts-request"><a href="<?=$_SITE['section_paths']['contact']['path']?>" class="g-button">Оставьте заявку</a></div>
                         </div>
+                        <a href="<?=$_SITE['section_paths']['property']['path']?>" class="header-search">
+                            <i class="fa fa-search"></i>
+                        </a>
                     </div>
                     <nav id="hamburger-menu" class="header-menu g-clearfix">
                         <ul>
