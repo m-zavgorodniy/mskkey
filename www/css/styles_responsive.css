@@ -253,6 +253,9 @@
   .header-menu-item {
     height: auto;
   }
+  .header-menu-item > a:hover, .header-menu-right:hover {
+    background: none;
+  }
   .header-menu-item--active .header-menu-submenu {
     position: static;
     background-color: #3f9865;

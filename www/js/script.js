@@ -41,6 +41,7 @@ $(function() {
 			$menuitem.removeClass("header-menu-item--active");
 			$submenu.removeClass("active");
 		} else {
+			$(".header-menu-item").removeClass("header-menu-item--active");
 			$(".header-menu-submenu").removeClass("active");
 			$menuitem.toggleClass("header-menu-item--active");
 			$submenu.toggleClass("active");
@@ -52,7 +53,10 @@ $(function() {
 		event.stopPropagation()
 	});
 	$(document).click(function() {
-		$(".header-menu-submenu").removeClass("active");
+        var x = document.getElementById("hamburger"); 
+		if (x.style.display == "none") {
+			$(".header-menu-submenu").removeClass("active");
+		}	
 	});
 	
 	/* property details bookmarks */
