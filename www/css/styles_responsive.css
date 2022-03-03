@@ -57,6 +57,12 @@
   display: none;
 }
 
+
+.properties-grid
+.p-item-bot {
+  height: auto;
+  display: flex;
+}
 @media (max-width: 986px) {
   /* tablet */
   /* 2 columns */
@@ -527,6 +533,34 @@
   .detail-overview-left {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+
+  .direction-type-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-field-col4 {
+    width: 100%;
+  }
+  .property-search-metro-section {
+    width: 100%;
+  }
+  .property-search-metro {
+    width: 100%;
+  }
+  .property-search-metro li {
+    width: 100%;
+  }
+  .property-search-metro li label {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+
+  .editor-align-left img {
+    max-width: 100% 
   }
 }
 
